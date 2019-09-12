@@ -27,7 +27,7 @@ View other screenshots:
 ## Setup
 This project is built with the basic web page structures and styling. It is pretty simple to setup. All you have to do is to clone the project into your local repository.
 Find attached below a preview of the project: <br>
-<a href="https://raw.githack.com/adaorachi/smashing-magazine/article-page/index.html">New York Times Article page </a>
+<a href="https://raw.githack.com/adaorachi/smashing-magazine/article-page/index.html">Smashing Magazine Design Teardown </a>
 
 ## Features
 List of features ready and TODOs for future development
