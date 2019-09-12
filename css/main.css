@@ -295,3 +295,69 @@ nav.navbar .navbar-nav {
 .featured-article-tags .articles-tags {
   margin-right: 2em;
 }
+
+/* section two */
+.section-articles .article-grid {
+  padding: 3em 0;
+}
+
+.article-grid header,
+.article-links header {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.article-grid .author {
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0.8em 0;
+}
+
+.article-grid .article-content p {
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+
+.article-meow,
+.sponsor-page,
+.smashing-print,
+.smashing-book {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+[class*="section"] button {
+  background-color: #fff;
+  height: 2em;
+  border: none;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+}
+
+.sponsor-page {
+  background-color: #adadad;
+  padding: 2em;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 1em 0 0;
+  font-size: 1em;
+}
+
+.sponsor-page p,
+.article-meow p {
+  line-height: 1.5em;
+  margin: 1em 0 2em;
+}
+
+.article-meow {
+  background-color: #878787;
+  padding: 2em;
+  border-radius: 5px;
+  margin: 0 0 0 2rem;
+  height: 25em;
+  text-align: center;
+  font-size: 1.3em;
+  color: #fff;
+}
