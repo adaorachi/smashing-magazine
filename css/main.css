@@ -324,6 +324,23 @@ nav.navbar .navbar-nav {
   margin: 0.8em 0;
 }
 
+.sponsor-page p,
+.article-meow p {
+  line-height: 1.5em;
+  margin: 1em 0 2em;
+}
+
+.person-of-the-week p {
+  font-size: 1.2em;
+  margin-top: 1em;
+  line-height: 1.5em;
+}
+
+.community-highlights p {
+  line-height: 2em;
+  font-size: 1.1em;
+}
+
 .article-grid .article-content p {
   font-size: 1.2em;
   line-height: 1.8em;
@@ -346,12 +363,6 @@ nav.navbar .navbar-nav {
   text-align: center;
   margin: 0 1em 0 0;
   font-size: 1em;
-}
-
-.sponsor-page p,
-.article-meow p {
-  line-height: 1.5em;
-  margin: 1em 0 2em;
 }
 
 .article-meow {
@@ -421,12 +432,6 @@ nav.navbar .navbar-nav {
   font-weight: 200;
 }
 
-.person-of-the-week p {
-  font-size: 1.2em;
-  margin-top: 1em;
-  line-height: 1.5em;
-}
-
 .community-highlights {
   margin: 10em 0;
   font-family: 'Manjari', sans-serif;
@@ -463,11 +468,6 @@ nav.navbar .navbar-nav {
 .community-highlights h2 {
   font-size: 2em;
   font-weight: 900;
-}
-
-.community-highlights p {
-  line-height: 2em;
-  font-size: 1.1em;
 }
 
 /* Section five */
