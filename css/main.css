@@ -392,3 +392,80 @@ nav.navbar .navbar-nav {
 .smashing-book h2 {
   font-size: 2em;
 }
+
+/* section four */
+.person-of-the-week .image {
+  width: 15em;
+  height: 15em;
+  background-color: #a7a7a7;
+  border-radius: 1em;
+}
+
+.person-of-the-week .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.person-of-the-week .body {
+  width: 75%;
+}
+
+.person-of-the-week h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #666;
+  font-weight: 200;
+}
+
+.person-of-the-week p {
+  font-size: 1.2em;
+  margin-top: 1em;
+  line-height: 1.5em;
+}
+
+.community-highlights {
+  margin: 10em 0;
+  font-family: 'Manjari', sans-serif;
+}
+
+.community-highlights .row-grid {
+  margin: 6em 0;
+}
+
+.community-highlights .article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.community-highlights .article .image {
+  height: 5em;
+  width: 5em;
+  background-color: #a7a7a7;
+}
+
+.community-highlights .article .content {
+  width: 80%;
+}
+
+.community-highlights .content > * {
+  margin: 0 0 1em;
+}
+
+.community-highlights .autor {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.community-highlights h2 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.community-highlights p {
+  line-height: 2em;
+  font-size: 1.1em;
+}
