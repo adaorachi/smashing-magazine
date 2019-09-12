@@ -364,3 +364,31 @@ nav.navbar .navbar-nav {
   font-size: 1.3em;
   color: #fff;
 }
+
+/* Section-three */
+
+.smashing-print,
+.smashing-book {
+  background-color: #c7c7c7;
+  margin: 6em auto 1em;
+  height: 20em;
+  text-align: center;
+  font-size: 1.3em;
+  color: #fff;
+}
+
+.smashing-print .content,
+.smashing-book .content {
+  width: 60%;
+}
+
+.smashing-print .content > *,
+.smashing-book .content > * {
+  padding: 1em 0;
+}
+
+.article-meow h2,
+.smashing-print h2,
+.smashing-book h2 {
+  font-size: 2em;
+}
