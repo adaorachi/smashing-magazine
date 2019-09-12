@@ -511,13 +511,13 @@ nav.navbar .navbar-nav {
   justify-content: center;
 }
 
-.footer-content header {
+.footer-content .heading {
   text-align: center;
   text-transform: uppercase;
   padding: 1em 0;
 }
 
-.footer-content header,
+.footer-content .heading,
 .footer-links li a {
   color: #fff;
 }
