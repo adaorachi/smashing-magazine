@@ -1,0 +1,523 @@
+/* Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: #555;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* General */
+.wrapper {
+  background-color: #fff;
+  color: #000;
+  font-family: 'Manjari', sans-serif;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5em;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.row-grid {
+  padding: 0 3em;
+  box-sizing: border-box;
+}
+
+.row-grid [class*='col'] {
+  margin: 0 1em;
+  box-sizing: border-box;
+}
+
+.col-4 {
+  width: 33.3%;
+}
+
+.col-5 {
+  width: 41.6%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3%;
+}
+
+.col-8 {
+  width: 66.6%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+[class*="article-grid"] {
+  margin: 0 0 4em;
+}
+
+[class*="section"] button {
+  background-color: #fff;
+  height: 2em;
+  border: none;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+}
+
+/* Navigation Bar */
+
+nav.navbar .navbar-nav {
+  height: 10em;
+  padding: 0 2em;
+  color: #fff;
+  background-color: #9a9a9a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .button {
+  color: #fff;
+  font-size: 1.7em;
+}
+
+.navbar-nav .nav-item {
+  flex: auto;
+}
+
+.navbar-nav .nav-item:first-child {
+  width: 10em;
+}
+
+.navbar-nav .button {
+  width: 100%;
+  height: 2em;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+/* Main */
+
+/* Section-one */
+
+.article-container {
+  position: relative;
+}
+
+.article-container h1 {
+  position: absolute;
+  top: 20px;
+  left: 35%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+.main-articles .featured-articles {
+  height: 20em;
+  padding: 15em 4em 10em;
+}
+
+.main-articles .first {
+  background-color: #808080;
+}
+
+.main-articles .second {
+  background-color: #8d8d8d;
+}
+
+.main-articles .third {
+  background-color: #737373;
+}
+
+.main-articles .fourth {
+  background-color: #808080;
+}
+
+.article-items .author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+}
+
+.author .author-name {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 2em;
+}
+
+.author .author-image {
+  height: 4em;
+  width: 4em;
+  background-color: #ccc;
+}
+
+.article-items .title {
+  margin-top: 0.5em;
+  font-size: 2.5em;
+}
+
+.featured-article-tags {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.featured-article-tags .articles-tags {
+  margin-right: 2em;
+}
+
+/* Section two */
+
+.section-articles .article-grid {
+  padding: 3em 0;
+}
+
+.article-grid header,
+.article-links header {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.article-grid .author {
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0.8em 0;
+}
+
+.sponsor-page p,
+.article-meow p {
+  line-height: 1.5em;
+  margin: 1em 0 2em;
+}
+
+.person-of-the-week p {
+  font-size: 1.2em;
+  margin-top: 1em;
+  line-height: 1.5em;
+}
+
+.community-highlights p {
+  line-height: 2em;
+  font-size: 1.1em;
+}
+
+.article-grid .article-content p {
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+
+.article-meow,
+.sponsor-page,
+.smashing-print,
+.smashing-book {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsor-page {
+  background-color: #adadad;
+  padding: 2em;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 1em 0 0;
+  font-size: 1em;
+}
+
+.article-meow {
+  background-color: #878787;
+  padding: 2em;
+  border-radius: 5px;
+  margin: 0 0 0 2rem;
+  height: 25em;
+  text-align: center;
+  font-size: 1.3em;
+  color: #fff;
+}
+
+/* Section-three */
+
+.smashing-print,
+.smashing-book {
+  background-color: #c7c7c7;
+  margin: 6em auto 1em;
+  height: 20em;
+  text-align: center;
+  font-size: 1.3em;
+  color: #fff;
+}
+
+.smashing-print .content,
+.smashing-book .content {
+  width: 60%;
+}
+
+.smashing-print .content > *,
+.smashing-book .content > * {
+  padding: 1em 0;
+}
+
+.article-meow h2,
+.smashing-print h2,
+.smashing-book h2 {
+  font-size: 2em;
+}
+
+/* Section four */
+.person-of-the-week .image {
+  width: 15em;
+  height: 15em;
+  background-color: #a7a7a7;
+  border-radius: 1em;
+}
+
+.person-of-the-week .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.person-of-the-week .body {
+  width: 75%;
+}
+
+.person-of-the-week h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #666;
+  font-weight: 200;
+}
+
+.community-highlights {
+  margin: 10em 0;
+  font-family: 'Manjari', sans-serif;
+}
+
+.community-highlights .row-grid {
+  margin: 6em 0;
+}
+
+.community-highlights .article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.community-highlights .article .image {
+  height: 5em;
+  width: 5em;
+  background-color: #a7a7a7;
+}
+
+.community-highlights .article .content {
+  width: 80%;
+}
+
+.community-highlights .content > * {
+  margin: 0 0 1em;
+}
+
+.community-highlights .autor {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.community-highlights h2 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+/* Section five */
+#feature-panel {
+  text-align: left;
+  padding-left: 2em;
+  align-items: start;
+}
+
+.smashing-book .content span {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+/* Section six & seven */
+
+.curated-articles {
+  margin: 3em 0;
+}
+
+.curated-articles .link-items li,
+.design-patterns .link-items li,
+.footer-links .link-items li {
+  font-size: 1.4em;
+  margin: 0.8em 0 0.8em 1.2em;
+  list-style: disc;
+  text-decoration: underline;
+}
+
+/* Footer */
+
+.footer-content {
+  background-color: #878787;
+  margin-top: 4em;
+}
+
+.footer-links .link-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-content .heading {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1em 0;
+}
+
+.footer-content .heading,
+.footer-links li a {
+  color: #fff;
+}
