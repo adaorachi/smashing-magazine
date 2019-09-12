@@ -469,3 +469,16 @@ nav.navbar .navbar-nav {
   line-height: 2em;
   font-size: 1.1em;
 }
+
+/* section five */
+#feature-panel {
+  text-align: left;
+  padding-left: 2em;
+  align-items: start;
+}
+
+.smashing-book .content span {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 700;
+}
