@@ -3,9 +3,9 @@ Smashing Magazine Design Teardown
 
 ## Table of contents
 * [General info](#general-info)
+* [Setup & Live Preview](#setup)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
 * [Contact](#contact)
@@ -13,6 +13,11 @@ Smashing Magazine Design Teardown
 ## General info
 In this project, our goal is to break apart the Smashing magazine website. This is to start training ourselves to think in terms of visual hierarchy, typography and design principles.
 The purpose is to create a grayscale heat map of the <a href="https://www.smashingmagazine.com/">Smashing Magazine website</a> that indicates which elements have the greatest weight in the visual hierarchy. It is a collaborative effort by <a href="https://github.com/adaorachi">MaryAnn Chukwuka</a> and <a href="https://github.com/JayKowski"> Judah Maina </a>.
+
+## Setup & Live Preview
+This project is built with the basic web page structures and styling. It is pretty simple to setup. All you have to do is to clone the project into your local repository.
+Find attached below a preview of the project: <br>
+<a href="https://raw.githack.com/adaorachi/smashing-magazine/master/index.html">Smashing Magazine Design Teardown </a>
 
 ## Screenshots
 ![Example screenshot](images/screenshot1.jpg)
@@ -23,11 +28,6 @@ View other screenshots:
 ## Technologies
 * HTML5
 * CSS3
-
-## Setup
-This project is built with the basic web page structures and styling. It is pretty simple to setup. All you have to do is to clone the project into your local repository.
-Find attached below a preview of the project: <br>
-<a href="https://raw.githack.com/adaorachi/smashing-magazine/master/index.html">Smashing Magazine Design Teardown </a>
 
 ## Features
 List of features ready and TODOs for future development
